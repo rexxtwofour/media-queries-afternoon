@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+
+
+nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.startbootstrap {
+  font-size: 30px;
+  color: yellow;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.bigNav:hover {
+  color: gold;
+}
+
+
+.bigNav{
+  background: transparent;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+
+
+
+.intro {
+    color: white;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+    background-color: grey;
+    background-position: center center;
+    text-align: center;
+    height: 80vh;
+    
+}
+
+
+.welcome {
+  font-size: 50px;
+  font-style: italic;
+  margin-bottom: 25px;
+  font-family: 'Kaushan Script';
+  align-items: center;
+
+}
+
+
+.meetYou {
+  font-size: 60px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+.tellMe {
+  font-size: 18px;
+  color: white;
+  background: gold;
+  padding: 20px 40px;
+  font-weight: bold 
+
+}
+
+
+
+
+
+@media(max-width: 1599px){
+  nav {
+    width: 450px;
+  }
+
+  .startbootstrap {
+    font-size: 30px;
+  }
+
+  .welcome {
+    font-size: 30px;
+  }
+
+  .meetYou {
+    font-size: 40px;
+  }
+
+}
+
+
+@media(max-width: 700px){
+  nav {
+    width: 250px;
+    font-size: 10px;
+    padding-right: 60px;
+  }
+
+  .startbootstrap {
+    font-size: 20px;
+  }
+
+  .welcome {
+    font-size: 15px;
+  }
+
+  .meetYou {
+    font-size: 20px;
+  }
+
+
+}
+
+
+
+
+
+
+
+/* 
+
+.body {
+
+}
+ */
+
+/* 
+
+.bigsize {
+
+}
+
+.middlesize {
+
+}
+
+.smallsize {
+
+} */
